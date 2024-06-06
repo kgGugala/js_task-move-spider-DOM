@@ -1,0 +1,2 @@
+var t=document.querySelector(".spider"),e=document.querySelector(".wall");e.addEventListener("click",function(i){var n=e.getBoundingClientRect(),c={x:i.clientX-n.left-parseInt(getComputedStyle(e).borderLeftWidth),y:i.clientY-n.top-parseInt(getComputedStyle(e).borderTopWidth)},l=Math.max(0,Math.min(c.x-t.clientWidth/2,e.clientWidth-t.clientWidth)),d=Math.max(0,Math.min(c.y-t.clientHeight/2,e.clientHeight-t.clientHeight));t.style.top="".concat(d,"px"),t.style.left="".concat(l,"px")});
+//# sourceMappingURL=index.339c91c1.js.map
